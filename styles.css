@@ -21,12 +21,14 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .container {
   height: 21rem;
   margin: 1rem 0.625rem;
 }
+
 .container h1 {
-  font-family: 'Playfair Display', arial, 'sans-serif';
+  font-family: Playfair Display, Arial, sans-serif, Helvetica;
   font-size: 3.125rem;
   font-weight: 400;
   line-height: 3.125rem;
@@ -76,11 +78,6 @@ header {
   width: 100%;
 }
 
-.project-card {
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .project-card .project-infor {
   background-color: #1a2236;
   height: 9.75rem;
@@ -99,7 +96,6 @@ header {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  
   font-family: 'Poppins', arial, sans-serif;
   font-size: 0.625rem;
   font-weight: 300;
@@ -160,15 +156,13 @@ header {
   background-repeat: no-repeat;
   background-position: 75%;
   margin-top: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 
 .knowledge-container {
   display: grid;
   grid-template-rows: 18.063rem 18.063rem 18.063rem;
   gap: 0.625rem;
-}
-.cv-button {
-  margin-bottom: 1.875rem;
 }
 
 .language {
@@ -213,7 +207,6 @@ header {
   margin-left: 4.875rem;
 }
 
-
 .contact-me {
   background-color: #f9f9fa;
   background-image: url(icons/image_geometry_1.png);
@@ -233,7 +226,7 @@ header {
 }
 
 .interest {
-  font-family: 'Poppins', arial, sans-serif;
+  font-family: Poppins, arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   margin-bottom: 0.875rem;
@@ -243,7 +236,7 @@ header {
   font-weight: 400;
   font-size: 0.625rem;
   color: #7d7c84;
-  font-family: 'Poppins', 'arial', 'sans-serif';
+  font-family: Poppins, Arial, sans-serif, Helvetica;
 }
 
 .contact-me input {
@@ -253,7 +246,7 @@ header {
   width: 100%;
   padding-left: 0.313rem;
   height: 3.25rem;
-  font-family: 'Poppins', 'sans-serif', 'arial';
+  font-family: Poppins, sans-serif, Arial, Helvetica;
   font-weight: 400;
   font-size: 0.875rem;
 }
@@ -296,6 +289,6 @@ header {
   font-size: 1rem;
   margin-top: 2.5rem;
   margin-left: 6.25rem;
-  font-family: 'poppins', 'sans-serif', 'arial';
+  font-family: Poppins, sans-serif, Arial, Helvetica;
   line-height: 1.5rem;
 }
